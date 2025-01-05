@@ -1,0 +1,48 @@
+/* Header */
+.App-header {
+    background-color: rgba(78, 42, 12, 0.9); /* Marrom escuro com opacidade */
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+}
+
+.App-header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; /* Espaço entre os links */
+}
+
+.App-header a:hover {
+    text-decoration: underline;
+}
+
+/* Customizações para o Select de idioma */
+.MuiFormControl-root {
+    margin-left: auto; /* Faz com que o seletor fique alinhado à direita */
+    margin-right: 0; /* Remove a margem à direita para maximizar a posição à direita */
+}
+
+.MuiInputBase-root {
+    color: white; /* Define a cor do texto dentro do seletor como branco */
+}
+
+.MuiOutlinedInput-root {
+    border-color: white; /* Define a borda do seletor como branca */
+}
+
+.MuiSelect-icon {
+    color: white; /* Define a cor do ícone de seleção como branco */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .App-header {
+        flex-direction: column; /* Alinha os itens em coluna em telas menores */
+        align-items: flex-start;
+    }
+    .MuiFormControl-root {
+        margin-top: 10px; /* Adiciona uma pequena margem superior para o seletor em telas pequenas */
+    }
+}

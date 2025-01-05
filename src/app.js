@@ -36,7 +36,7 @@ function App() {
           <Link to="/globalrank">Global Rank</Link>
           
           {/* Seletor de idioma */}
-          <FormControl sx={{ minWidth: 120 }} variant="outlined" style={{ marginLeft: 'auto' }}>
+          <FormControl sx={{ minWidth: 120 }} variant="outlined" style={{ marginLeft: 'auto', marginRight: '10px' }}>
             <InputLabel id="language-select-label" style={{ color: 'white' }}>Language</InputLabel>
             <Select
               labelId="language-select-label"
