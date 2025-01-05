@@ -1,0 +1,92 @@
+/* src/app.css */
+
+/* Header */
+.App-header {
+    background-color: rgba(78, 42, 12, 0.9); /* Marrom escuro com opacidade */
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+}
+
+.App-header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; /* Espaço entre os links */
+}
+
+.App-header a:hover {
+    text-decoration: underline;
+}
+
+/* Body */
+body {
+    background-color: #f5c684; /* Marrom mais claro */
+    font-family: Arial, sans-serif;
+}
+
+/* App Content */
+.App-content {
+    display: flex;
+    flex-direction: column; /* Coloca os botões em uma coluna */
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+/* Centralizando o h1 */
+.App-title {
+    color: white;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove margens padrão */
+    padding-top: 50px; /* Espaçamento no topo para que o título não fique colado na borda */
+}
+
+/* Botão estilo pixelizado */
+button {
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    padding: 20px 40px; /* Aumenta o tamanho do botão (mais espaço no botão) */
+    background-color: #4A2A0A; /* Cor do fundo do botão */
+    color: white;
+    border: 3px solid #000; /* Borda grossa para efeito pixelizado */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para um efeito pixelizado */
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1); /* Efeito de aumentar um pouco ao passar o mouse */
+}
+
+button:active {
+    transform: scale(1); /* Restaura o tamanho ao clicar */
+}
+
+/* Customizações para o Select de idioma */
+.MuiFormControl-root {
+    margin-left: auto; /* Faz com que o seletor fique alinhado à direita */
+    margin-right: 0; /* Remove a margem à direita para maximizar a posição à direita */
+}
+
+.MuiInputBase-root {
+    color: white; /* Define a cor do texto dentro do seletor como branco */
+}
+
+.MuiOutlinedInput-root {
+    border-color: white; /* Define a borda do seletor como branca */
+}
+
+.MuiSelect-icon {
+    color: white; /* Define a cor do ícone de seleção como branco */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .App-header {
+        flex-direction: column; /* Alinha os itens em coluna em telas menores */
+        align-items: flex-start;
+    }
+    .MuiFormControl-root {
+        margin-top: 10px; /* Adiciona uma pequena margem superior para o seletor em telas pequenas */
+    }
+}

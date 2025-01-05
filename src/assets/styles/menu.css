@@ -1,0 +1,11 @@
+/* src/app.css */
+
+/* Menu */
+.Menu {
+    color: white;
+    display: flex;
+    flex-direction: column; /* Organiza os botões em uma coluna */
+    align-items: center; /* Centraliza os botões horizontalmente */
+    gap: 15px; /* Espaçamento entre os botões */
+    margin-top: 20px; /* Margem no topo, para não colar os elementos */
+}
