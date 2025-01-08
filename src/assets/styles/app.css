@@ -44,6 +44,7 @@ body {
     text-align: center; /* Centraliza o texto horizontalmente */
     margin: 0; /* Remove margens padrão */
     padding-top: 50px; /* Espaçamento no topo para que o título não fique colado na borda */
+    margin-bottom: 30px;
 }
 
 /* Botão estilo pixelizado */

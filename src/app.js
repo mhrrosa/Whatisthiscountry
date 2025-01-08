@@ -64,7 +64,7 @@ function App() {
           
         </header>
         <body>
-          <h1 className="App-title">Jogo de Países</h1>
+          <h1 className="App-title">Guess country</h1>
           <div className="App-content">
             <Switch>
               <Route path="/" exact>
